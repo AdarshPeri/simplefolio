@@ -25,21 +25,21 @@ export const targetElements = [
   {
     element: ".hero-cta",
     animation: {
-      delay: 800,
+      delay: 600,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
   {
     element: ".about-wrapper__image",
     animation: {
-      delay: 750,
+      delay: 550,
       origin: "bottom",
     },
   },
   {
     element: ".about-wrapper__info",
     animation: {
-      delay: 1000,
+      delay: 850,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
