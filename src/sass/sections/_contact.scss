@@ -24,7 +24,11 @@
     backface-visibility: hidden;
 
     &__text {
-      margin-bottom: 2.5rem;
+      margin-bottom: 15rem;
+
+      @include respond(phone) {
+        margin-bottom: 1.5rem;
+      }
     }
 
     &__text,
